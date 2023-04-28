@@ -1,0 +1,24 @@
+{
+  "name": "nd-crm-backend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "nomdicdev.io",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "mustache": "^4.2.0",
+    "puppeteer": "^19.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
