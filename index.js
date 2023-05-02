@@ -2,7 +2,7 @@ import express from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./mongodb/connect.js";
-import companyRoutes from './routes/company.routes.js'
+import clientRoutes from './routes/client.routes.js'
 // Imported Routes
 
 dotenv.config();
@@ -31,7 +31,7 @@ const figure = `
 `;
 
 // Setting Routes 
-app.use('/api/v1/company', companyRoutes);
+app.use('/api/v1/client', clientRoutes);
 
 const startServer = async ()=> {
   try {
